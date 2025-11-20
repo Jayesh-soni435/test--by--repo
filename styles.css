@@ -1,0 +1,92 @@
+body{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(pexels-pixabay-531880.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.wrapper{
+height: 500px;
+    width: 550px;
+    padding: 50px;
+    background: #fef9f9;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    color: rgba(3, 2, 3, 0.61);
+}
+
+.wrapper h1{
+    text-align: center;
+    margin-bottom: 30px;
+}   
+.wrapper .input-box{
+    position: relative;
+    margin-bottom: 30px;
+    border: #fff;
+    border-color: black;
+}
+.wrapper .input-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    background: transparent;
+}   
+.wrapper .input-box i{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    color: #333;
+    font-size: 20px;
+    transition: .3s;
+}
+.wrapper .input-box input:focus + i,
+.wrapper .input-box input:valid + i{
+    color: rgb(119, 129, 129);
+    transform: translateY(-20px);
+    font-size: 18px;
+}
+
+
+.wrapper .remember forget{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.wrapper .remember forget label input{
+    margin-right: 5px;
+}
+.wrapper .btn{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: rgb(118, 127, 127);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wrapper .btn:hover{
+    background: #333;
+}
+.wrapper .register{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.wrapper .register a{
+    color: rgb(118, 127, 127);
+    text-decoration: none;
+}
+.wrapper .register a:hover{
+    text-decoration: underline;
+}
